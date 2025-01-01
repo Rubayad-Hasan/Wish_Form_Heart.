@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish Form Heart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        
+        <div class="logo">
+            <h1>Wish Form Heart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Wish Form Heart</h2>
+            <p>Discover premium cosmetics crafted just for you!</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="415621485_390910866632213_5825734779332775751_n.jpg" alt="Lipstick">
+                <h3> lip gloss keychain</h3>
+                <p>$5.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        <div class="product-list">
+            <div class="product">
+                <img src="467585014_580817677641530_5734969367897300909_n.jpg" alt="Lipstick">
+                <h3>Baolishi gloss lipstick</h3>
+                <p>$5.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="461966865_549691854087446_6649974124479065861_n.jpg" alt="Foundation">
+                <h3> Art Value Matte Velvet Lip Glaze.</h3>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="457520576_526842336372398_3515663740463788525_n.jpg" alt="Eyeshadow">
+                <h3>Niro Lip Gloss.</h3>
+                <p>$12.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="433116979_433669515689681_8376441687535031507_n.jpg" alt="Eyeshadow">
+                <h3>CACE Matte Lipstick.</h3>
+                <p>$12.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Take love and support from <strong>Wish from Heart</strong>. We are always there for you, dear customers.<br>
+            Our aim is to provide heartfelt products and services that bring joy and happiness into your life. We go beyond simply selling products—we deliver experiences that leave a lasting impact on your heart.
+        </p>
+        <p>
+            At <strong>Wish from Heart</strong>, we focus on curating unique, meaningful, and personalized items that suit every occasion and every person. Whether you’re looking for gifts to express love, gratitude, or friendship, 
+            we have a wide variety of collections to choose from.
+        </p>
+        <p>
+            Every product we offer is crafted with care, ensuring the highest quality that meets your expectations. From handmade treasures to thoughtful keepsakes, we take pride in delivering excellence while staying true to our values of love, quality, and commitment.
+        </p>
+        <p>
+            Located in <strong>Kuril, Dhaka</strong>, we are just a call or message away. Feel free to connect with us for inquiries, custom orders, or suggestions. Your satisfaction is our inspiration, and we thrive on seeing smiles on your faces.
+        </p>
+        <p>
+            <strong>Location:</strong> Kuril, Dhaka, Bangladesh<br>
+            <strong>Contact Numbers:</strong><br>
+            📞 <a href="tel:+880123456789">+880 123 456 789</a><br>
+            📞 <a href="tel:+880987654321">+880 987 654 321</a>
+        </p>
+        <p>
+            Let’s build memories together! Whether it’s a small gesture or a grand celebration, <strong>Wish from Heart</strong> is here to add love, joy, and meaning to your moments. Explore our world of heartfelt creations and let us be a part of your journey.
+        </p>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="validate.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wish Form Heart. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
